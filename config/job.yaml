@@ -1,0 +1,9 @@
+job:
+  - name: Backup1
+    path_file: /etc/passwd/job1.jinja
+    variable: /opt/airflow/job2.yaml
+    dag_output_locate: /opt/airflow/dags/
+  - name: Backup2
+    path_file: /etc/passwd2/job2.jinja
+    variable: /opt/airflow/job1.yaml
+    dag_output_locate: /opt/airflow/dags/
