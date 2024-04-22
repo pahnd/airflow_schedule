@@ -46,22 +46,16 @@ class UpdateDataResponse(BaseModel, BaseResponse):
 
 class UpdateDataUseCase(BaseHandler):
     async def handle(self, req: UpdateRequest) -> UpdateDataResponse:
-        for job in data.job:
+       for job in data.job:
             if req.name == job.name:
-                with open(job.path_file, 'r') as file:
+                schedule = {'SCHEDULE': req.schedule()}
+                with open(job.jinja2_path, 'r') as file:
                     jinja2_content = file.read()
-
                 env = Environment()
                 template = env.from_string(jinja2_content)
-
-                with open(f"{job.config_schedule_file}", "r") as input_file:
-                    inputs = yaml.safe_load(input_file)
-                    with open(f"{job.dag_output_locate}/{job.name}.py", "w") as f:
-                        f.write(template.render(inputs))
-
-                file_path == job.jinja2_path
-                req.schedule 
-                
+                with open(f"{job.dag_output_locate}/{job.name}.py", "w") as f:
+                    f.write(template.render(schedule))
+                    
                 return UpdateDataResponse(success=True)
         raise DataException(error_info=ErrorInfo.job_not_found_error)
 
