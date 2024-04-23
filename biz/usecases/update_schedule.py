@@ -1,52 +1,52 @@
 from pydantic import BaseModel, Field, constr, field_validator
-from pydiator_core.interfaces import BaseRequest, BaseResponse, BaseHandler
 from db import data
 from utils.exception.exception_types import DataException 
 from utils.error.error_models import ErrorInfo
-
-import yaml
-
 from jinja2 import Environment
+import re
 
-class UpdateRequest(BaseModel, BaseRequest):
-    name: str = Field("", title="The name of job", max_length=100, min_length=1)
-    time: str = constr(pattern=r'^([01]?[0-9]|2[0-3]):[0-5][0-9]$')
-    weekday: constr(min_length=1)
-    
+
+
+class UpdateRequest(BaseModel):
+    name: str = Field(..., title="The name of job", max_length=100, min_length=1)
+    time: str = Field(..., description="Time in HH:MM format")
+    weekday: str = constr(min_length=1)
+
+    @field_validator('time')
+    def validate_time(cls, value):
+        if not re.match(r'^([01]?[0-9]|2[0-3]):[0-5][0-9]$', value):
+            raise ValueError("Invalid time format. Time must be in HH:MM format.")
+        return value
+
+
     @field_validator("weekday")
-    def validate_weekday(cls, weekday):
+    def validate_weekday(cls, value):
         weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "*"]
 
-        if weekday.capitalize() not in weekdays:
+        if value.capitalize() not in weekdays:
             raise ValueError("Invalid request value: Weekday")
+        if value == "*":
+            return value
+        value = str(weekdays.index(value.capitalize()))
+        return value
 
-        try:
-            if weekday == "*":
-                return weekday
-            return str(weekdays.index(weekday.capitalize()))
-        except ValueError:
-            raise ValueError("Invalid weekday name")
-    
 
     def convert_time_to_cron_format(self):
         hour, minute = self.time.split(":")
-        return f"{minute} {hour}"
+        return f"{hour} {minute}"
 
 
     def schedule(self):
-        clock = self.convert_time_to_cron_format(self)
+        clock = self.convert_time_to_cron_format()
         cron = str(f"{clock} * * {self.weekday}")
         return cron
 
-
-
-
-class UpdateDataResponse(BaseModel, BaseResponse):
+class UpdateDataResponse(BaseModel):
     success: bool = Field(...)
 
-class UpdateDataUseCase(BaseHandler):
+class UpdateDataUseCase(BaseModel):
     async def handle(self, req: UpdateRequest) -> UpdateDataResponse:
-       for job in data.job:
+        for job in data.job:
             if req.name == job.name:
                 schedule = {'SCHEDULE': req.schedule()}
                 with open(job.jinja2_path, 'r') as file:
@@ -54,8 +54,7 @@ class UpdateDataUseCase(BaseHandler):
                 env = Environment()
                 template = env.from_string(jinja2_content)
                 with open(f"{job.dag_output_locate}/{job.name}.py", "w") as f:
-                    f.write(template.render(schedule))
-                    
+                    f.write(template.render(schedule))       
                 return UpdateDataResponse(success=True)
         raise DataException(error_info=ErrorInfo.job_not_found_error)
 

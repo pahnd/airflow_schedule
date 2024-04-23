@@ -11,14 +11,7 @@ class ErrorInfoModel:
 
 
 class ErrorInfo:
-    # General errors
-    unhandled_error = ErrorInfoModel(code=1, message='Internal server error')
-    could_not_get_excepted_response = ErrorInfoModel(code=2, message='Could not get expected response')
-    model_validation_error = ErrorInfoModel(code=3, message='Model validation error')
-    not_found_error = ErrorInfoModel(code=4, message='Not found')
-
-    # Custom errors
-    job_not_found_error = ErrorInfoModel(code=101, message='Todo not found')
+    job_not_found_error = ErrorInfoModel(code=400, message='Name schedule not found')
 
 
 class ErrorResponseModel(BaseModel):
