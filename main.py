@@ -1,7 +1,6 @@
 from fastapi import FastAPI
-from biz.usecases.update_schedule import UpdateRequest, UpdateDataUseCase
 import uvicorn
-from handler.api.update_schedule_handler import router
+from handler.api.schedule_handler import router
 
 app = FastAPI()
 

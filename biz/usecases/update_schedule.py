@@ -1,6 +1,5 @@
 from pydantic import BaseModel, Field, constr, field_validator
-from db import data
-from utils.exception.exception_types import DataException 
+from db.data import data
 from utils.error.error_models import ErrorInfo
 from jinja2 import Environment
 import re
@@ -8,14 +7,23 @@ import re
 
 
 class UpdateRequest(BaseModel):
-    name: str = Field(..., title="The name of job", max_length=100, min_length=1)
+    name: str = Field(..., title="The name of job", max_length=100, min_length=1, description="Schedule name")
     time: str = Field(..., description="Time in HH:MM format")
-    weekday: str = constr(min_length=1)
+    # weekday: str = constr(min_length=1)
+    weekday: str = Field(..., description="['Sunday', 'Monday', 'Tuesday'.. etc)]")
+
+    @field_validator('name')
+    def validate_job(cls, name):
+        for job in data.job:
+            if name == job.name:
+                return name
+        raise ValueError(ErrorInfo.job_not_found_error.message)
+            
 
     @field_validator('time')
     def validate_time(cls, value):
         if not re.match(r'^([01]?[0-9]|2[0-3]):[0-5][0-9]$', value):
-            raise ValueError("Invalid time format. Time must be in HH:MM format.")
+            raise ValueError(ErrorInfo.schedule_time_invalid.message)
         return value
 
 
@@ -24,7 +32,7 @@ class UpdateRequest(BaseModel):
         weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "*"]
 
         if value.capitalize() not in weekdays:
-            raise ValueError("Invalid request value: Weekday")
+            raise ValueError(ErrorInfo.weekdays_invalid.message)
         if value == "*":
             return value
         value = str(weekdays.index(value.capitalize()))
@@ -56,5 +64,6 @@ class UpdateDataUseCase(BaseModel):
                 with open(f"{job.dag_output_locate}/{job.name}.py", "w") as f:
                     f.write(template.render(schedule))       
                 return UpdateDataResponse(success=True)
-        raise DataException(error_info=ErrorInfo.job_not_found_error)
+        raise ErrorInfo().Up
+        
 

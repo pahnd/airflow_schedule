@@ -11,10 +11,7 @@ class ErrorInfoModel:
 
 
 class ErrorInfo:
-    job_not_found_error = ErrorInfoModel(code=400, message='Name schedule not found')
-
-
-class ErrorResponseModel(BaseModel):
-    error_code: int = None
-    error_message: str = None
-    error_detail: list = None
+    job_not_found_error = ErrorInfoModel(code=400, message='Invalid request value: Name schedule not found')
+    schedule_time_invalid = ErrorInfoModel(code=400, message='"Invalid request value: Invalid time format. Time must be in HH:MM format."')
+    weekdays_invalid = ErrorInfoModel(code=400, message='Invalid request value: Weekday must be ["Sunday", "Monday", "Tuesday", etc..')
+    update_process = ErrorInfoModel(code=500, message="Internal handler error: Can't modify jinja Schedule")
