@@ -1,7 +1,6 @@
 from pydantic import BaseModel, Field, constr, field_validator
 from db.data import data
 from utils.error.error_models import ErrorInfo
-from jinja2 import Environment
 import re
 
 
@@ -9,7 +8,6 @@ import re
 class UpdateRequest(BaseModel):
     name: str = Field(..., title="The name of job", max_length=100, min_length=1, description="Schedule name")
     time: str = Field(..., description="Time in HH:MM format")
-    # weekday: str = constr(min_length=1)
     weekday: str = Field(..., description="['Sunday', 'Monday', 'Tuesday'.. etc)]")
 
     @field_validator('name')
@@ -56,14 +54,11 @@ class UpdateDataUseCase(BaseModel):
     async def handle(self, req: UpdateRequest) -> UpdateDataResponse:
         for job in data.job:
             if req.name == job.name:
-                schedule = {'SCHEDULE': req.schedule()}
+                schedule = req.schedule()
                 with open(job.jinja2_path, 'r') as file:
                     jinja2_content = file.read()
-                env = Environment()
-                template = env.from_string(jinja2_content)
+                jinja_content = jinja2_content.replace('{{ SCHEDULE_TIME }}', schedule)
                 with open(f"{job.dag_output_locate}/{job.name}.py", "w") as f:
-                    f.write(template.render(schedule))       
+                    f.write(jinja_content)                      
                 return UpdateDataResponse(success=True)
-        raise ErrorInfo().Up
-        
-
+        raise RuntimeError(ErrorInfo.update_process)
