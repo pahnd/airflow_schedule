@@ -1,0 +1,289 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="50Johr5cxlgym-xC6WPF">
+    <mxGraphModel dx="3470" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-3" edge="1" parent="1" source="czMzne_ZfhmWIMXkXQRc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="czMzne_ZfhmWIMXkXQRc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-1" parent="1" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" value="" vertex="1">
+          <mxGeometry height="70" width="70" x="60" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-11" edge="1" parent="1" source="czMzne_ZfhmWIMXkXQRc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="czMzne_ZfhmWIMXkXQRc-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="345" y="480" />
+              <mxPoint x="170" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Jenkins" vertex="1">
+          <mxGeometry height="60" width="120" x="285" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="development/release" vertex="1">
+          <mxGeometry height="30" width="60" x="70" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="nuri-embulk" vertex="1">
+          <mxGeometry height="30" width="100" x="295" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;osscp/nuri-embulk&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-8" edge="1" parent="1" source="czMzne_ZfhmWIMXkXQRc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="czMzne_ZfhmWIMXkXQRc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-7" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="40" x="-170" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Push code" vertex="1">
+          <mxGeometry height="30" width="60" x="-80" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-17" edge="1" parent="1" source="czMzne_ZfhmWIMXkXQRc-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="czMzne_ZfhmWIMXkXQRc-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-19" edge="1" parent="1" source="czMzne_ZfhmWIMXkXQRc-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="czMzne_ZfhmWIMXkXQRc-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="create_table" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="development" vertex="1">
+          <mxGeometry height="30" width="60" x="180" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-51" edge="1" parent="1" source="czMzne_ZfhmWIMXkXQRc-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="czMzne_ZfhmWIMXkXQRc-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="create_table" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-14" edge="1" parent="1" source="czMzne_ZfhmWIMXkXQRc-2" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="czMzne_ZfhmWIMXkXQRc-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="345" y="480" />
+              <mxPoint x="520" y="480" />
+            </Array>
+            <mxPoint x="350" y="420" as="sourcePoint" />
+            <mxPoint x="450" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="release" vertex="1">
+          <mxGeometry height="30" width="60" x="460" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Update README&lt;br&gt;base on codeowner" vertex="1">
+          <mxGeometry height="60" width="120" x="-100" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-21" edge="1" parent="1" source="czMzne_ZfhmWIMXkXQRc-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="czMzne_ZfhmWIMXkXQRc-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-26" edge="1" parent="1" source="czMzne_ZfhmWIMXkXQRc-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="czMzne_ZfhmWIMXkXQRc-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="set_last_commiter" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="765" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-24" edge="1" parent="1" source="czMzne_ZfhmWIMXkXQRc-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="czMzne_ZfhmWIMXkXQRc-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-380" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="set_last_commiter.py --brand development \&lt;div&gt;&lt;div&gt;--base-path config \&lt;/div&gt;&lt;/div&gt;&lt;div&gt;--last-json build/last_commit.json \&lt;/div&gt;&lt;div&gt;--max-depth 3 \&lt;/div&gt;&lt;div&gt;--ignore-id dev1 \&lt;/div&gt;&lt;div&gt;--token $(GITHUB_TOKEN)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="270" x="-260" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Record the latest commit SHA, GithubID, and email" vertex="1">
+          <mxGeometry height="150" width="150" x="-470" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-28" edge="1" parent="1" source="czMzne_ZfhmWIMXkXQRc-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="czMzne_ZfhmWIMXkXQRc-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-35" edge="1" parent="1" source="czMzne_ZfhmWIMXkXQRc-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="czMzne_ZfhmWIMXkXQRc-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="get-cert" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-33" edge="1" parent="1" source="czMzne_ZfhmWIMXkXQRc-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="czMzne_ZfhmWIMXkXQRc-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-620" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="git clone -n --depth 1 osscp/gitops tmp/gitops\&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;echo &quot;script/release-helper/set-image.py&quot;&amp;nbsp; &amp;gt;&amp;gt; .git/info/sparse-checkout \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;echo &quot;scripts/resources/image-overlay-map.yaml&quot; &amp;gt;&amp;gt; .git/info/sparse-checkout \&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;echo &quot;gitops/nuri-embulk&quot; &amp;gt;&amp;gt; .git/info/sparse-checkout&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;git -C tmp/gitops fetch --depth 1 origin master;&lt;/div&gt;&lt;div&gt;git -C tmp/gitops reset --hard origin/master;&lt;/div&gt;&lt;div&gt;cp -r tmp/gitops/images/repo-v2-dev/osscp-lcm-os-ext/ubuntu/jammy/scp-cert /tmp&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="490" x="-480" y="895" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px; color: rgb(0, 0, 0);&quot;&gt;- &lt;span class=&quot;Yjhzub&quot; data-sfc-root=&quot;c&quot; data-sfc-cb=&quot;&quot; data-processed=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 600; margin: 0px; text-decoration: none; border-bottom: 0px rgb(0, 29, 53);&quot; style=&quot;background-color: transparent; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-weight: 600; margin: 0px; border-bottom: 0px rgb(0, 29, 53);&quot;&gt;shallow clone&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;by downloading only the most recent commit of a project.&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px; color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- .git/info/sparse-checkout is a configuration file used by Git to define which files should actually appear in your local working directory when using the sparse-checkout feature.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;-&amp;nbsp;&lt;/font&gt;&lt;span class=&quot;Yjhzub&quot; data-sfc-root=&quot;c&quot; data-sfc-cb=&quot;&quot; data-complete=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 600; margin: 0px; text-decoration: none; border-bottom: 0px rgb(10, 10, 10);&quot; style=&quot;font-size: 10px; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: 600; margin: 0px; border-bottom: 0px rgb(10, 10, 10);&quot;&gt;Lệnh 1 (Fetch):&lt;/span&gt;&lt;span style=&quot;font-size: 10px; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; &quot;Đi hỏi&quot; server xem có gì mới nhất không và tải về bản nháp.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Yjhzub&quot; data-sfc-root=&quot;c&quot; data-sfc-cb=&quot;&quot; data-complete=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 600; margin: 0px; text-decoration: none; border-bottom: 0px rgb(10, 10, 10);&quot; style=&quot;font-size: 10px; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); margin: 0px; border-bottom: 0px rgb(10, 10, 10);&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;Yjhzub&quot; data-sfc-root=&quot;c&quot; data-sfc-cb=&quot;&quot; data-complete=&quot;true&quot; data-copy-service-computed-style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 600; margin: 0px; text-decoration: none; border-bottom: 0px rgb(10, 10, 10);&quot; style=&quot;font-size: 10px; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: 600; margin: 0px; border-bottom: 0px rgb(10, 10, 10);&quot;&gt;Lệnh 2 (Reset --hard):&lt;/span&gt;&lt;span style=&quot;font-size: 10px; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; &quot;Đập đi xây lại&quot; thư mục cục bộ theo đúng bản nháp vừa tải về.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- copy cert&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="320" width="660" x="-1220" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-37" edge="1" parent="1" source="czMzne_ZfhmWIMXkXQRc-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="czMzne_ZfhmWIMXkXQRc-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="docker-build" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-39" edge="1" parent="1" source="czMzne_ZfhmWIMXkXQRc-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="czMzne_ZfhmWIMXkXQRc-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="docker push" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-41" edge="1" parent="1" source="czMzne_ZfhmWIMXkXQRc-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="czMzne_ZfhmWIMXkXQRc-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-45" edge="1" parent="1" source="czMzne_ZfhmWIMXkXQRc-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="czMzne_ZfhmWIMXkXQRc-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="update-overlay" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-43" edge="1" parent="1" source="czMzne_ZfhmWIMXkXQRc-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="czMzne_ZfhmWIMXkXQRc-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-800" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="rm -rf /tmp/gitops&lt;div&gt;mkdir -p /tmp/gitops&lt;/div&gt;&lt;div&gt;git clone -n depth 1 osscp/gitops /tmp/gitops&lt;/div&gt;&lt;div&gt;cd /tmp/gitops&lt;/div&gt;&lt;div&gt;git config core.sparsecheckout true&lt;/div&gt;&lt;div&gt;echo &quot;script/release-helper/set-image.py&quot;&amp;nbsp; &amp;gt;&amp;gt; .git/info/sparse-checkout&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;echo &quot;scripts/resources/image-overlay-map.yaml&quot; &amp;gt;&amp;gt; .git/info/sparse-checkout \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;echo &quot;gitops/nuri-embulk&quot; &amp;gt;&amp;gt; .git/info/sparse-checkout&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;while&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; git -C tmp/gitops fetch --depth 1 origin master;&lt;/div&gt;&lt;div&gt;&amp;nbsp; git -C tmp/gitops reset --hard origin/master;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; python3 tmp/gitops/scripts/release-helper/set-image.py --branch development IMAGE_NAME=$(IMG)&lt;/div&gt;&lt;div&gt;&amp;nbsp; git -C tmp/gitops push osscp/gitops master&lt;/div&gt;&lt;div&gt;done&lt;/div&gt;&lt;div&gt;rm -rf /tmp/gitops&lt;/div&gt;" vertex="1">
+          <mxGeometry height="212.5" width="620" x="-630" y="1233.75" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="update image embulk" vertex="1">
+          <mxGeometry height="280" width="240" x="-950" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-47" edge="1" parent="1" source="czMzne_ZfhmWIMXkXQRc-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="czMzne_ZfhmWIMXkXQRc-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="create_airflow_config" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="1630" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-49" edge="1" parent="1" source="czMzne_ZfhmWIMXkXQRc-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="czMzne_ZfhmWIMXkXQRc-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-690" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="rm -rf /tmp/nuri-airflow&lt;div&gt;mkdir -p /tmp/nuri-airflow&lt;/div&gt;&lt;div&gt;git clone osscp/nuri-airflow /tmp/nuri-airflow&lt;/div&gt;&lt;div&gt;git -C /tmp/nuri-airflow checkout development&lt;/div&gt;&lt;div&gt;cp build/create_airflow_config.py .&lt;/div&gt;&lt;div&gt;python3 create_airflow_config.py /tmp/nuri-airflow&lt;/div&gt;&lt;div&gt;rm -rf /tmp/nuri-airflow/schemas&lt;/div&gt;&lt;div&gt;mkdir -p /tmp/nuri-airflow/schemas&lt;/div&gt;&lt;div&gt;cp -r config/* /tmp/nuri-airflow/schemas&lt;/div&gt;&lt;div&gt;git -C /tmp/nuri-airflow add .&lt;/div&gt;&lt;div&gt;git -C /tmp/nuri-airflow commit -am &quot;nuri-airflow update by nuri-embulk&quot; || true&lt;/div&gt;&lt;div&gt;git -C /tmp/nuri-airflow push || true&lt;/div&gt;&lt;div&gt;rm -rf create_airflow_config.py&lt;/div&gt;&lt;div&gt;rm -rf /tmp/nuri-airflow&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="260" width="440" x="-455" y="1596.25" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="Copy file config của nuri-embulk sang repository của nuri-airflow:&lt;div&gt;&lt;span style=&quot;&quot;&gt;cp -r nuri-embulk/config nuri-airflow/schemas&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;python3 create_airflow_config.py /tmp/nuri-airflow&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Đọc các đường dẫn trong thư mục /tmp/nuri-embulk/config từ đó sắp xếp thành thứ tự, sau đó tạo ra file nuri-airflow/configs/base.yaml&lt;br&gt;&lt;br&gt;ví dụ tasks:&lt;br&gt;1 - dbms: mariadb-ext-regional - db: A1&lt;/div&gt;&lt;div&gt;1 - dbms: mariadb-global - db: A2&lt;/div&gt;&lt;div&gt;1 - dbms: mariadb-regional - db: A3&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;=&amp;gt; 3 task này sẽ được thực hiện cùng lúc&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Sau đó đến task:&lt;/div&gt;&lt;div&gt;2 - dbms: mariadb-ext-regional -db: B1&lt;/div&gt;&lt;div&gt;2 - dbms: mariadb-global: -db: B2&lt;/div&gt;&lt;div&gt;2 - dbms: mariadb-ext-regional - db: B3&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-&amp;gt; Mục đích để đảm bảo các dbms cùng nhau thực hiện không phải là tasks 1 lại 3 db cùng là mariadb-ext-regional chạy&lt;/div&gt;" vertex="1">
+          <mxGeometry height="372.5" width="280" x="-950" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="set_last_commiter" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="765" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;font color=&quot;#1f2328&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Dockerfile:&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding-left: 2em; color: rgb(31, 35, 40); background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;font&gt;Stage 1: dùng Poetry export để tạo requirements.txt.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;font&gt;Stage 2: Sử dụng embulk-base tạo môi trường Embulk + JRuby, cấu hình gem source, cài Embulk plugins (MySQL input/output).&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;font style=&quot;&quot;&gt;Sau đó (vẫn stage 2): cài Python dependencies và chạy một FastAPI app bằng Uvicorn.&lt;/font&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="115" width="790" x="980" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-55" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Dockerfile_embulk_base&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Stage 1: Download package embulk từ minio&lt;/li&gt;&lt;li&gt;Stage 2: Sử dụng để&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Cài đặt openjdk-11-jdk, python3.11, pip, netcat&lt;/li&gt;&lt;li&gt;Copy từ stage 1 embulk.jar và jruby-complete&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div&gt;-&amp;gt; Image Ubuntu with 2 files /usr/local/bin/embulk.jar and&amp;nbsp; /jruby-complete-9.4.3.0.jar&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="470" x="980" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-1" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(31, 35, 40); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font&gt;&lt;b&gt;src/nuri_dw.py&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(31, 35, 40); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;font&gt;&lt;span style=&quot;color: rgb(31, 35, 40); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; background-color: rgb(255, 255, 255);&quot;&gt;Function&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Monaspace Neon&amp;quot;, ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; tab-size: 4; white-space: break-spaces; background-color: rgba(129, 139, 152, 0.12); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em; color: rgb(31, 35, 40);&quot;&gt;job_result_set(...)&lt;/code&gt;&lt;span style=&quot;color: rgb(31, 35, 40); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;có mục đích ghi (upsert) kết quả job (“Success/Fail”) vào bảng DW&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Monaspace Neon&amp;quot;, ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; tab-size: 4; white-space: break-spaces; background-color: rgba(129, 139, 152, 0.12); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em; color: rgb(31, 35, 40);&quot;&gt;dw.job_pass_or_fail&lt;/code&gt;&lt;span style=&quot;color: rgb(31, 35, 40); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;trên MySQL&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="630" x="980" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-2" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;font color=&quot;#1f2328&quot; face=&quot;Mona Sans VF, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#1f2328&quot; face=&quot;Mona Sans VF, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#1f2328&quot; face=&quot;Mona Sans VF, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot;&gt;&lt;b&gt;Embulk fastapi&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#1f2328&quot; face=&quot;Mona Sans VF, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ol style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding-left: 2em; background-color: rgb(255, 255, 255); color: rgb(31, 35, 40);&quot;&gt;&lt;li style=&quot;color: light-dark(rgb(31, 35, 40), rgb(205, 208, 212)); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; box-sizing: border-box;&quot;&gt;&lt;font&gt;Đọc JSON body → lấy&amp;nbsp;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Monaspace Neon&amp;quot;, ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; tab-size: 4; white-space: break-spaces; background-color: rgba(129, 139, 152, 0.12); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em;&quot;&gt;dbms/db/name&lt;/code&gt;&amp;nbsp;(+&amp;nbsp;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Monaspace Neon&amp;quot;, ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; tab-size: 4; white-space: break-spaces; background-color: rgba(129, 139, 152, 0.12); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em;&quot;&gt;task_id/run_id&lt;/code&gt;).&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;color: light-dark(rgb(31, 35, 40), rgb(205, 208, 212)); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;font&gt;Gắn&amp;nbsp;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Monaspace Neon&amp;quot;, ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; tab-size: 4; white-space: break-spaces; background-color: rgba(129, 139, 152, 0.12); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em;&quot;&gt;TaskIDFilter&lt;/code&gt;&amp;nbsp;vào&amp;nbsp;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Monaspace Neon&amp;quot;, ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; tab-size: 4; white-space: break-spaces; background-color: rgba(129, 139, 152, 0.12); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em;&quot;&gt;logger&lt;/code&gt;&amp;nbsp;theo request.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;color: light-dark(rgb(31, 35, 40), rgb(205, 208, 212)); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;font&gt;Lấy template Embulk từ&amp;nbsp;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Monaspace Neon&amp;quot;, ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; tab-size: 4; white-space: break-spaces; background-color: rgba(129, 139, 152, 0.12); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em;&quot;&gt;yaml_data_dict[f&quot;{dbms}/{db}/{name}&quot;]&lt;/code&gt;.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(31, 35, 40), rgb(205, 208, 212)); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;;&quot;&gt;Chỉnh config:&lt;/font&gt;&lt;ul style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; padding-left: 2em;&quot;&gt;&lt;li style=&quot;color: light-dark(rgb(31, 35, 40), rgb(205, 208, 212)); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; box-sizing: border-box;&quot;&gt;&lt;font&gt;nếu&amp;nbsp;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Monaspace Neon&amp;quot;, ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; tab-size: 4; white-space: break-spaces; background-color: rgba(129, 139, 152, 0.12); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em;&quot;&gt;out.mode == incremental&lt;/code&gt;&amp;nbsp;→ đổi sang&amp;nbsp;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Monaspace Neon&amp;quot;, ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; tab-size: 4; white-space: break-spaces; background-color: rgba(129, 139, 152, 0.12); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em;&quot;&gt;insert&lt;/code&gt;, và&amp;nbsp;&lt;span style=&quot;box-sizing: border-box; font-weight: 600;&quot;&gt;không xoá dữ liệu trước&lt;/span&gt;&amp;nbsp;(&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Monaspace Neon&amp;quot;, ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; tab-size: 4; white-space: break-spaces; background-color: rgba(129, 139, 152, 0.12); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em;&quot;&gt;is_delete=False&lt;/code&gt;).&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;color: light-dark(rgb(31, 35, 40), rgb(205, 208, 212)); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;font&gt;nếu&amp;nbsp;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Monaspace Neon&amp;quot;, ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; tab-size: 4; white-space: break-spaces; background-color: rgba(129, 139, 152, 0.12); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em;&quot;&gt;dbms == mariadb-global&lt;/code&gt;&amp;nbsp;→ chỉ lấy 1 filter đầu tiên.&lt;/font&gt;&lt;/li&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font color=&quot;#1f2328&quot; face=&quot;Mona Sans VF, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot;&gt;{ &quot;type&quot;: &quot;column&quot;, &quot;add_columns&quot;: [ {&quot;name&quot;: &quot;offering_cd&quot;, &quot;type&quot;: &quot;string&quot;, &quot;default&quot;: os.environ.get(&quot;OFFERING&quot;)} ], }&lt;/font&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li style=&quot;color: light-dark(rgb(31, 35, 40), rgb(205, 208, 212)); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;font&gt;Dump YAML ra file config trong&amp;nbsp;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Monaspace Neon&amp;quot;, ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; tab-size: 4; white-space: break-spaces; background-color: rgba(129, 139, 152, 0.12); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em;&quot;&gt;TMP_CONFIG_DIR&lt;/code&gt;.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;color: light-dark(rgb(31, 35, 40), rgb(205, 208, 212)); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;font&gt;Acquire lock theo&amp;nbsp;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Monaspace Neon&amp;quot;, ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; tab-size: 4; white-space: break-spaces; background-color: rgba(129, 139, 152, 0.12); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em;&quot;&gt;(dbms, db, table)&lt;/code&gt;&amp;nbsp;để tránh chạy đồng thời cùng target.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;color: light-dark(rgb(31, 35, 40), rgb(205, 208, 212)); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;font&gt;Check source table exist; nếu bảng không tồn tại thì “Skipped” (ghi DW tables) và return.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;color: light-dark(rgb(31, 35, 40), rgb(205, 208, 212)); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;font&gt;Nếu&amp;nbsp;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Monaspace Neon&amp;quot;, ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; tab-size: 4; white-space: break-spaces; background-color: rgba(129, 139, 152, 0.12); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em;&quot;&gt;is_delete&lt;/code&gt;&amp;nbsp;→ gọi&amp;nbsp;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Monaspace Neon&amp;quot;, ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; tab-size: 4; white-space: break-spaces; background-color: rgba(129, 139, 152, 0.12); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em;&quot;&gt;delete_table_data&lt;/code&gt;. (Nếu không phải mode incremental)&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;color: light-dark(rgb(31, 35, 40), rgb(205, 208, 212)); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;font&gt;Chạy&amp;nbsp;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Monaspace Neon&amp;quot;, ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; tab-size: 4; white-space: break-spaces; background-color: rgba(129, 139, 152, 0.12); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em;&quot;&gt;embulk run &amp;lt;config&amp;gt;&lt;/code&gt;&amp;nbsp;bằng subprocess async, stream stdout/stderr.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;color: light-dark(rgb(31, 35, 40), rgb(205, 208, 212)); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;font&gt;Nếu success → ghi DW table “Success”; nếu fail → mail_send + trả 500.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;color: light-dark(rgb(31, 35, 40), rgb(205, 208, 212)); font-family: &amp;quot;Mona Sans VF&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;font&gt;Release lock + remove filter + trả response.&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+          <mxGeometry height="470" width="670" x="980" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="czMzne_ZfhmWIMXkXQRc-57" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;b&gt;main.py&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;color: rgb(31, 35, 40); background-color: rgb(255, 255, 255);&quot;&gt;API này là endpoint FastAPI&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;box-sizing: border-box; tab-size: 4; white-space: break-spaces; background-color: rgba(129, 139, 152, 0.12); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em; color: rgb(31, 35, 40);&quot;&gt;POST /run-embulk&lt;/code&gt;&lt;span style=&quot;color: rgb(31, 35, 40); background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;dùng để: nhận request JSON → chọn “template” YAML embulk từ&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;box-sizing: border-box; tab-size: 4; white-space: break-spaces; background-color: rgba(129, 139, 152, 0.12); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em; color: rgb(31, 35, 40);&quot;&gt;yaml_data_dict&lt;/code&gt;&lt;span style=&quot;color: rgb(31, 35, 40); background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;→ render thành config file tạm → (tuỳ mode) xoá dữ liệu bảng đích → chạy&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;box-sizing: border-box; tab-size: 4; white-space: break-spaces; background-color: rgba(129, 139, 152, 0.12); border-radius: 6px; margin: 0px; padding: 0.2em 0.4em; color: rgb(31, 35, 40);&quot;&gt;embulk run &amp;lt;config&amp;gt;&lt;/code&gt;&lt;span style=&quot;color: rgb(31, 35, 40); background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;→ stream log stdout/stderr → release lock.&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="135" width="250" x="1390" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-13" edge="1" parent="1" source="_nvuyuZxYllZ9lhAfhZw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_nvuyuZxYllZ9lhAfhZw-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Jenkins" vertex="1">
+          <mxGeometry height="77.5" width="130" x="40" y="2301.25" as="geometry" />
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-11" edge="1" parent="1" source="_nvuyuZxYllZ9lhAfhZw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_nvuyuZxYllZ9lhAfhZw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-5" parent="1" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" value="" vertex="1">
+          <mxGeometry height="70" width="70" x="-190" y="2305" as="geometry" />
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;osscp/nuri-airflow&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="-190" y="2385" as="geometry" />
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-8" edge="1" parent="1" source="_nvuyuZxYllZ9lhAfhZw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_nvuyuZxYllZ9lhAfhZw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-9" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="40" x="-420" y="2310" as="geometry" />
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="merge code" vertex="1">
+          <mxGeometry height="30" width="60" x="-320" y="2310" as="geometry" />
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-15" edge="1" parent="1" source="_nvuyuZxYllZ9lhAfhZw-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="_nvuyuZxYllZ9lhAfhZw-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-18" edge="1" parent="1" source="_nvuyuZxYllZ9lhAfhZw-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_nvuyuZxYllZ9lhAfhZw-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="2820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="make get-cert" vertex="1">
+          <mxGeometry height="60" width="120" x="45" y="2582.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-16" edge="1" parent="1" source="_nvuyuZxYllZ9lhAfhZw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_nvuyuZxYllZ9lhAfhZw-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-560" y="2612.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;span style=&quot;&quot;&gt;rm -rf /tmp/gitops&lt;/span&gt;&lt;div style=&quot;&quot;&gt;mkdir -p /tmp/gitops&lt;/div&gt;&lt;div style=&quot;&quot;&gt;git clone -n depth 1 osscp/gitops /tmp/gitops&lt;/div&gt;&lt;div style=&quot;&quot;&gt;cd /tmp/gitops&lt;/div&gt;&lt;div style=&quot;&quot;&gt;git config core.sparsecheckout true&lt;/div&gt;&lt;div style=&quot;&quot;&gt;echo &quot;ubuntu/jammy/scp-cert&quot;&amp;nbsp; &amp;gt;&amp;gt; .git/info/sparse-checkout&lt;/div&gt;&lt;div style=&quot;&quot;&gt;while&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&amp;nbsp; git -C tmp/gitops fetch --depth 1 origin master;&lt;/div&gt;&lt;div&gt;&amp;nbsp; git -C tmp/gitops reset --hard origin/master;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; cp -r tmp/gitops/ubuntu/jammy/scp-cert/ tmp/&lt;/div&gt;&lt;div style=&quot;&quot;&gt;done&lt;/div&gt;&lt;div style=&quot;&quot;&gt;rm -rf /tmp/gitops&lt;/div&gt;" vertex="1">
+          <mxGeometry height="182.5" width="350" x="-460" y="2521.25" as="geometry" />
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Copy cert&amp;nbsp;&amp;nbsp;&lt;div&gt;&amp;nbsp;/tmp/scp-cert&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-620" y="2582.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-20" edge="1" parent="1" source="_nvuyuZxYllZ9lhAfhZw-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_nvuyuZxYllZ9lhAfhZw-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="2960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-24" edge="1" parent="1" source="_nvuyuZxYllZ9lhAfhZw-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_nvuyuZxYllZ9lhAfhZw-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110" y="2820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="docker-build" vertex="1">
+          <mxGeometry height="60" width="120" x="45" y="2790" as="geometry" />
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-22" edge="1" parent="1" source="_nvuyuZxYllZ9lhAfhZw-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_nvuyuZxYllZ9lhAfhZw-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="3080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="docker-push" vertex="1">
+          <mxGeometry height="60" width="120" x="45" y="2930" as="geometry" />
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-27" edge="1" parent="1" source="_nvuyuZxYllZ9lhAfhZw-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="_nvuyuZxYllZ9lhAfhZw-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="update-overlay" vertex="1">
+          <mxGeometry height="60" width="120" x="45" y="3050" as="geometry" />
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="Update cert từ /tmp/scp-cert&lt;div&gt;Update certificate&lt;/div&gt;&lt;div&gt;Update requirement&lt;/div&gt;&lt;div&gt;Copy toàn bộ thư mục&lt;/div&gt;&lt;div&gt;Chạy fastapi&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="350" x="-460" y="2755" as="geometry" />
+        </mxCell>
+        <mxCell id="_nvuyuZxYllZ9lhAfhZw-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="rm -rf /tmp/gitops&lt;div&gt;mkdir -p /tmp/gitops&lt;/div&gt;&lt;div&gt;git clone -n depth 1 osscp/gitops /tmp/gitops&lt;/div&gt;&lt;div&gt;cd /tmp/gitops&lt;/div&gt;&lt;div&gt;git config core.sparsecheckout true&lt;/div&gt;&lt;div&gt;echo &quot;script/release-helper/set-image.py&quot;&amp;nbsp; &amp;gt;&amp;gt; .git/info/sparse-checkout&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;echo &quot;scripts/resources/image-overlay-map.yaml&quot; &amp;gt;&amp;gt; .git/info/sparse-checkout \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;echo &quot;gitops/nuri-airflow&quot; &amp;gt;&amp;gt; .git/info/sparse-checkout&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;while&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; git -C tmp/gitops fetch --depth 1 origin master;&lt;/div&gt;&lt;div&gt;&amp;nbsp; git -C tmp/gitops reset --hard origin/master;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; python3 tmp/gitops/scripts/release-helper/set-image.py --branch development IMAGE_NAME=$(IMG)&lt;/div&gt;&lt;div&gt;&amp;nbsp; git -C tmp/gitops push osscp/gitops master&lt;/div&gt;&lt;div&gt;done&lt;/div&gt;&lt;div&gt;rm -rf /tmp/gitops&lt;/div&gt;" vertex="1">
+          <mxGeometry height="212.5" width="620" x="-690" y="2973.75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
